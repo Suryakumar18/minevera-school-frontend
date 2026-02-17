@@ -128,7 +128,7 @@ export const AdmissionPopup = () => {
       }
       
       // Direct API URL - Update this with your backend server address
-      const response = await fetch('https://minerva-backed-2.onrender.com/api/admission', {
+      const response = await fetch('https://minerva-backed-3.onrender.com/api/admission', {
         method: 'POST',
         body: formDataToSend,
       });
